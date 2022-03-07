@@ -1,0 +1,25 @@
+{
+  "name": "PROYECTO_PHP_MSQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "express-mysql-session": "^2.1.7",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "req": "^0.1.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon src/database.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
