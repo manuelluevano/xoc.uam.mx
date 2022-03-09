@@ -76,4 +76,4 @@ function call() {
   });
 }
 
-setInterval(call, 15000);
+setInterval(call, 3600000);
